@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Aaron-Pan&#39;s Log</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Aaron-Pan&#39;s Log</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Jul 2025 23:49:15 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo&#43;PaperMod&#43;Github创建自己的博客网站</title>
+      <link>http://localhost:1313/posts/my-first-blog/</link>
+      <pubDate>Sun, 06 Jul 2025 23:49:15 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-blog/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;安装hugo&lt;/li&gt;
+&lt;li&gt;新建aaronpan.github.io&lt;/li&gt;
+&lt;li&gt;clone 到本地&lt;/li&gt;
+&lt;li&gt;hugo new site aaronpan.github.io &amp;ndash;format yaml &amp;ndash;force&lt;/li&gt;
+&lt;li&gt;cd aaronpan.github.io&lt;/li&gt;
+&lt;li&gt;git add .&lt;/li&gt;
+&lt;li&gt;git commit -m &amp;ldquo;Build with hugo&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;git push&lt;/li&gt;
+&lt;li&gt;git submodule add &amp;ndash;depth=1 &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod.git&#34;&gt;https://github.com/adityatelange/hugo-PaperMod.git&lt;/a&gt; themes/PaperMod&lt;/li&gt;
+&lt;li&gt;git submodule update &amp;ndash;init &amp;ndash;recursive&lt;/li&gt;
+&lt;li&gt;git submodule update &amp;ndash;remote &amp;ndash;merge&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

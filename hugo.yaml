@@ -1,3 +1,64 @@
-baseURL: https://example.org/
+baseURL: https://aaronpan.github.io/
 languageCode: en-us
-title: My New Hugo Site
+title: Aaron-Pan's Log
+theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: Posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: Search
+      name: Search
+      url: /search/
+      weight: 30
+    - identifier: Archives
+      name: Archives
+      url: /archives/
+      weight: 40
+
+params:
+  assets:
+    css:
+      - css/custom.css
+  title: Aaron-Pan's Blog
+  description: My personal blog using Hugo and PaperMod
+  author: Aaron-Pan
+  profileMode:
+    enabled: false
+  showTags: true
+  showToc: true
+  showReadingTime: true
+  showPostNavLinks: true
+  homeInfoParams:
+    Title: 🐕Welcome to Aaron-Pan's Log
+    Content: |
+      Hi, I am a student from the College of Computer Science and Technology, Zhejiang University. I will share some of my learning experiences and thoughts here. Hope you like it!😊
+  socialIcons:
+    - name: github
+      url: https://github.com/Master-Pan
+    - name: csdn
+      url: https://blog.csdn.net/plc19981102?type=blog
+  defaultTheme: light
+  mainSections:
+    - posts
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
