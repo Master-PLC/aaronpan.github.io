@@ -209,4 +209,6 @@ jobs:
 
 ```
 
-20. git add
+20. git add .
+21. git commit -m "Deploy hugo"
+22. git push
